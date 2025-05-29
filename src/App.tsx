@@ -1,7 +1,8 @@
 // import DivAnimate from "./Component/DivAnimate"
 // import MoveSlide from "./Component/MoveSlide"
-import DraggableBox from "./Component/Draggablebox"
-import ExpandingCard from "./Component/ExpandingCard"
+// import DraggableBox from "./Component/Draggablebox"
+// import ExpandingCard from "./Component/ExpandingCard"
+import LayoutIdExample from "./Component/LayoutIdExample"
 // import PanExample from "./Component/Panexample"
 // import ToggleBox from "./Component/Togglebox"
 // import ScrollTrigger from "./Component/ScrollTrigger"
@@ -16,7 +17,9 @@ function App() {
     {/* <ToggleBox/> */}
     {/* <PanExample/> */}
     {/* <DraggableBox/> */}
-    <ExpandingCard/>
+    {/* <ExpandingCard/> */}
+
+    <LayoutIdExample/>
      
     </>
   )
