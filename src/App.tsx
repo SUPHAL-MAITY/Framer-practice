@@ -1,12 +1,14 @@
 // import DivAnimate from "./Component/DivAnimate"
-import ScrollTrigger from "./Component/ScrollTrigger"
+import MoveSlide from "./Component/MoveSlide"
+// import ScrollTrigger from "./Component/ScrollTrigger"
 
 function App() {
 
 
   return (
     <>
-    <ScrollTrigger/>
+    {/* <ScrollTrigger/> */}
+    <MoveSlide/>
      
     </>
   )
