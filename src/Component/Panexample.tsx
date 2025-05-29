@@ -7,7 +7,7 @@ export default function PanExample() {
   return (
     <div
       style={{
-        height: "100vh",
+        height: "400px",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -18,6 +18,8 @@ export default function PanExample() {
       <motion.div
         drag
         dragMomentum={false}
+        dragSnapToOrigin
+        dragTransition={{ bounceStiffness: 100, bounceDamping: 10 }}
         onPan={(_e, info) => setOffset(info.offset)}
         onPanEnd={() => setOffset({ x: 0, y: 0 })}
         style={{
